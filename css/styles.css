@@ -817,7 +817,7 @@ a {
 .modal-input:focus + .modal-label,
 .modal-input:not(:placeholder-shown) + .modal-label {
   transform: translateY(-44px);
-  left: 29px;
+  left: 16px;
   color: var(--accent-color);
 }
 .modal-textarea {
