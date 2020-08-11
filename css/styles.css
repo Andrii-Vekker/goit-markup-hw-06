@@ -782,12 +782,11 @@ a {
   top: 50%;
   left: 48px;
   transform: translateY(-50%);
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
+  font-weight: normal;
   letter-spacing: 0.01em;
   color: #757575;
-  transition: transform 250ms var(--transition-timing-function);
+  transition: all 250ms var(--transition-timing-function);
 }
 .modal-input {
   display: block;
@@ -817,6 +816,7 @@ a {
 .modal-input:focus + .modal-label,
 .modal-input:not(:placeholder-shown) + .modal-label {
   transform: translateY(-44px);
+  font-size: 12px;
   left: 16px;
   color: var(--accent-color);
 }
@@ -876,6 +876,7 @@ a {
   border-color: transparent;
 }
 .btn-modal-submit {
+  display: block;
   width: 200px;
   height: 50px;
   padding: 10px 55px;
